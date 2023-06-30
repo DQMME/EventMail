@@ -1,0 +1,13 @@
+#Mailer
+hostname: "mail.example.com"
+port: 25
+username: "user"
+password: "1234"
+sender: "sender@example.com"
+receiver: "receiver@ecample.com"
+
+#Events
+#Available Events: player_joined, player_left
+enabled_events:
+  - "player_joined"
+  - "player_left"

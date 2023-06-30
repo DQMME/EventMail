@@ -1,0 +1,6 @@
+player_joined_title: "Player Joined"
+player_left_title: "Player left"
+
+#Available variables: %PLAYER_NAME%, %NEW_PLAYER_COUNT%, %TIME%
+email_joined: "The player %PLAYER_NAME% joined your server at %TIME%. Now there are %NEW_PLAYER_COUNT% players online."
+email_left: "The player %PLAYER_NAME% left your server at %TIME%. Now there are %NEW_PLAYER_COUNT% players online."
