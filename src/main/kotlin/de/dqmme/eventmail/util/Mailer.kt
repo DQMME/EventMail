@@ -53,6 +53,8 @@ object Mailer {
             )
         }
 
+        Bukkit.getLogger().log(Level.INFO, "Trying to send email...")
         mail.send(mailer!!)
+        Bukkit.getLogger().log(Level.INFO, "Email successfully sent!")
     }
 }
